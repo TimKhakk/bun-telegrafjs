@@ -1,0 +1,20 @@
+{
+  "name": "bun-telegrafjs",
+  "module": "main.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun run main.ts"
+  },
+  "dependencies": {
+    "@types/node-schedule": "^2.1.7",
+    "dayjs": "^1.11.13",
+    "node-schedule": "^2.1.1",
+    "telegraf": "^4.16.3"
+  }
+}
