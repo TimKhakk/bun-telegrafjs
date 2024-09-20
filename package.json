@@ -4,6 +4,7 @@
   "type": "module",
   "devDependencies": {
     "@biomejs/biome": "1.9.2",
+    "@flydotio/dockerfile": "^0.5.8",
     "@types/bun": "latest"
   },
   "peerDependencies": {
