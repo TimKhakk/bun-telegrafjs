@@ -10,7 +10,10 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "dev": "bun run main.ts"
+    "dev": "bun run main.ts",
+    "format": "bunx biome format --write .",
+    "lint": "bunx biome lint --write .",
+    "check": "bunx biome check --write ."
   },
   "dependencies": {
     "@types/node-schedule": "^2.1.7",
