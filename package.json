@@ -12,6 +12,7 @@
   },
   "scripts": {
     "dev": "bun run main.ts",
+    "start": "bun run main.ts",
     "format": "bunx biome format --write .",
     "lint": "bunx biome lint --write .",
     "check": "bunx biome check --write ."
